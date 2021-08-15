@@ -1,7 +1,7 @@
 
 const url = '../../controllers/authController.php';
 
-function login() {
+const login = () => {
   document.getElementById('progress').classList.remove('showLoader');
   document.getElementById("message").innerHTML = '';
   let username = document.getElementById("username").value;
